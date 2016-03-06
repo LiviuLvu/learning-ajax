@@ -7,21 +7,18 @@
 <body>
    <div>
       <h1>Learning AJAX</h1>
-      <h3>List populated with AJAX from a XML file</h3>
+
+      <h3>Options for reading data with AJAX :</h3>
+      <button onclick="loadJSON();">Read JSON</button>
+      <button onclick="loadXML();">Load XML</button>
       <div id="update"></div>
-
-      <h3>List populated with AJAX from a text file</h3>
-      <ul>
-         <li>1</li>
-         <li>2</li>
-         <li>3</li>
+      <h3>List populated from a text file</h3>
+      <button onclick="loadTXT();">Read Text</button>
+      <ul id="listTXT">
+         <li></li>
+         <li></li>
+         <li></li>
       </ul>
-      <ul>
-         <li>1</li>
-         <li>2</li>
-         <li>3</li>
-      </ul>
-
 
       <!-- script file -->
       <script src="main.js"></script>
